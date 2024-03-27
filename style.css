@@ -1,0 +1,331 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(46, 44, 44);
+    color: #fff;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo a {
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 20px
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.nav-links li {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.nav-links li a button{
+    background-color: rgb(0, 188, 212)  ;
+    border: 1px;
+    color: white;
+    padding: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav-links li a:hover{
+    color: rgb(163, 163, 230);
+    text-decoration: underline;
+}
+#base{
+    display: flex;
+    margin: 20px;
+    margin-left: -1050px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    box-shadow:   1px 1px 11px rgb(212, 207, 207);
+    border:0;
+    margin: auto;
+    display: flex;
+    background-color: white;
+    width: 800px;
+    height: 550px;
+    flex-direction: column;
+    border-radius: 3%;
+}
+.banner{
+    display: flex;
+    background-color: rgb(72, 192, 41);
+    height: 20%;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.imgperfil{
+    border: 3px solid white;
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    position: relative;
+    top: -10%;
+    right: -5%;
+}
+h1{
+    margin-left:7%;
+    margin-top: -7%;
+    margin-bottom: -4%;
+}
+.text{
+    margin: 7%;
+}
+.edit{
+    border: 0;
+    width: 15%;
+    height: 7%;
+    margin-top: -20px;
+    margin-left: 7%;
+    text-align: center;
+}
+#base2 {
+    display: flex;
+    margin: 40px;
+}
+.container1{
+    position: relative;
+    left: -20px;
+    display: flex;
+    width: 800px ;
+    height: 190px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 1px 1px rgb(212, 207, 207);
+}
+.text1{
+    position: relative;
+    left: -90px;
+    top: 68px;
+}
+.edu1{
+    position: relative;
+    top: 10px;
+    left: 25px;
+}
+.container2{
+    display: flex;
+    width: 600px;
+    height: 270px;
+    margin-left: 1090px;
+    margin-top: -820px;
+    border-radius: 20px;
+    box-shadow: 0 1px 1px 1px rgb(212, 207, 207);
+}
+.dog{
+    display: flex;
+    margin-left: 200px;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(34, 211, 211);
+}
+.emo{
+    display: flex;
+    margin-left: 200px;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(34, 211, 211);
+}
+.soli{
+    margin-left: 30px;
+}
+.soli1{
+    position: relative;
+    top: 24px;
+    margin-left: 130px;
+    font-size: medium;
+}
+.kai{
+    position: relative;
+    top: 15px;
+}
+.img1{
+    position: relative;
+    top: -20px;
+    margin-top: -100px;
+    margin-left: -160px;
+}
+.checkbox{
+    position: relative;
+    top: -186px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 300px;
+}
+.si{
+    position: relative;
+    right: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border-style: solid;
+    color: rgb(255, 0, 150);
+}
+.no{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border-style: solid;
+    color: rgb(255, 0, 150);
+}
+.checkbox1{
+    position: relative;
+    top: -182px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 300px;
+}
+.si1{
+    position: relative;
+    right: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border-style: solid;
+    color: rgb(255, 0, 150);
+}
+.no1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border-style: solid;
+    color: rgb(255, 0, 150); 
+}
+.container3{
+    display: flex;
+    width: 610px;
+    height: 530px;
+    margin-top: 30px;
+    margin-left: 1090px;
+    border-radius: 20px;
+    box-shadow: 0 1px 1px 1px rgb(212, 207, 207);
+}
+.conexion{
+    position: relative;
+    left: 22px;
+}
+.text3{
+    position: relative;
+    top: 80px;
+    left: -130px;
+    font-size: medium;
+}
+.imgw{
+    position: relative;
+    top: 80px;
+    left: -340px;
+    width: 5px;
+}
+.dragon{
+    position: relative;
+    top: -20px;
+    border-style: solid;
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;    
+}
+.per1{
+    position: relative;
+    top: -15px;
+}
+.monkey{
+    position: relative;
+    top: -15px;
+    border-style: solid;
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;    
+}
+.per2{
+    position: relative;
+    top: -5px;
+}
+.anime{
+    position: relative;
+    top: -10px;
+    border-style: solid;
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;    
+}
+.per3{
+    position: relative;
+    top: 0px;
+}
+.panda{
+    position: relative;
+    top: -5px;
+    border-style: solid;
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;    
+}
+.per4{
+    position: relative;
+    top: 6px;
+}
+.pandemic{
+    position: relative;
+    top: 5px;
+    border-style: solid;
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;
+}
+.per5{
+    position: relative;
+    top: 20px;
+}
+.pirate{
+    position: relative;
+    top: 10px;
+    border-style: solid;
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;    
+}
+.per6{
+    position: relative;
+    top: 28px;
+}
